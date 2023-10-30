@@ -1,0 +1,131 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe6e6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del formulario de inicio de sesión */
+.login-container {
+    background-color: #3869a5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Encabezado del formulario */
+.login-container h1 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Estilos para los campos de entrada y botón */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/*cierre*/
+button {
+    background-color: #07213d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.boton-inicio {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton-inicio:hover {
+    background-color: #005dbb;
+}
+
+button:hover {
+    background-color: #1b398b;
+}
+
+/* Estilos para las imágenes */
+.imagen-local, .imagen-debajo {
+    margin-top: 30px;
+}
+/*estilos bienvenida*/
+
+/* Estilos para el contenedor de bienvenida */
+.contenedor-bienvenida {
+    text-align: center;
+    background-color: #12347c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.contenedor-bienvenida h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff5f5;
+}
+
+.contenedor-bienvenida p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.boton-iniciar-sesion {
+    background-color: #491375;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.boton-iniciar-sesion:hover {
+    background-color: #31649e;
+}
+
+/* Estilos para la imagen debajo del botón */
+.imagen-debajo {
+    margin-top: 20px;
+}
+
+.imagen-debajo img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+

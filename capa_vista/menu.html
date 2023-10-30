@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login y Register</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        body {
+            background-image: url('../img/m.jpg');
+            /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta de tu imagen de fondo local */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .contenedor_todo {
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Fondo semi-transparente blanco para el contenido */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contenedor_todo button {
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="contenedor_todo">
+            <div class="caja_trasera">
+                <div class="caja_trasera-login">
+                    <h2>MENU OPCIONES</h2>
+                    <a href="../capa_negocio/productos.php"><button>Productos</button></a>
+                    <a href="../capa_negocio/venta.php"><button>Ventas</button></a>
+                    <a href="../capa_negocio/compras.php"><button>Compras</button></a>
+                    <a href="../capa_datos/clientes.php"><button>Clientes</button></a>
+                    <a href="../capa_datos/proveedores.php"><button>Proveedor</button></a>
+                    <hr>
+                    <a href="../capa_cierre/cierre.html"><button>Salir</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Iniciar Sesión</title>
+</head>
+<body style="background-image: url('../img/s.jpg'); background-size: cover;">
+    <div class="login-container">
+        <img src="../img/t.jpg" alt="Logo de la aplicación" width="300">
+        <h1>Iniciar Sesión</h1>
+        <form action="../PROCESO/procesar_registro.php" method="post">
+            <div class="form-group">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <a href="../capa_vista/menu.html"><button type="submit">Iniciar Sesión</button></a>
+        </form>
+        <p>¿No tienes una cuenta? <a href="../capa_vista/registro.php">Crear cuenta</a></p>
+    </div>
+</body>
+</html>
